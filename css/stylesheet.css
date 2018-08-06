@@ -1,0 +1,239 @@
+/* Applying background image to the body section */
+body{
+	background-color: white;
+	background: url("https://365psd.com/images/previews/2e8/purty-wood-patterns-54743.jpg");
+	background-position: center top;
+	background-repeat: repeat;
+}
+
+@media only screen and (min-width:800px) {
+    /* For tablets: */
+    body{
+        background-color: #f44336;
+    }
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (min-width:500px) {
+    /* For mobile phones: */
+    body{
+        background-color: #5faaff;
+    }
+    .holder, .wrapper {
+        width: 100%;
+        margin: 50px auto 50px;
+        position: relative;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-gap: 10px;
+    }
+    
+    } */
+    
+
+
+/* Adding style to the holder section */
+.holder{
+	width: 1500px;
+	margin: 80px auto 80px;
+	position: relative;
+}
+
+/* Grid layout section for cv */
+.wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: transparent solid 2px;
+}
+
+/* Styling the (h1) tag  */
+h1{
+	text-align: center;
+	color: rgba(54, 50, 50, 0.8);
+	font-size: 80px;
+	padding-bottom: 20px;
+	text-shadow: 0 -3px 0 #333,
+		0 3px 2px rgba(0,0,0, 0.4),
+		0 4px 5px rgba(0,0,0, 0.15),
+		0 14px 5px rgba(0,0,0, 0.18),
+		0 6px 5px rgba(0,0,0, 0.21);
+}
+
+/* Styling the (h2) tag */
+h2{
+	padding-bottom: 10px;
+	text-align: center;
+    font-size: 34px;
+}
+
+hr{
+    background-color: black;
+}
+
+h3{
+    font-size: 20px;
+}
+
+p{
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+
+li{
+    font-size: 19px;
+}
+
+/* Applying grid to the image section as well as center image */
+#img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: transparent solid 2px;
+    text-align: center;
+}
+
+/* Styling image tag */
+.img{
+    text-align: center;
+    border-radius: 100px;
+    padding-bottom: 20px;
+}
+
+/* Applying grid and border to about-myself section */
+.about-myself{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: transparent solid 2px;
+    text-align: center;
+}
+
+/* Adding grid and border to skill section */
+#skill{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: transparent solid 2px;
+    text-align: center;
+}
+
+/* #sideImg{
+    float: right;
+}
+
+#left{
+    float: left;
+} */
+* {box-sizing: border-box}
+
+/* container within skill section */
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+/* Styling the progress bar for the skills section */
+.skills {
+  text-align: right;
+  padding-right: 10px;
+  line-height: 12px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 50%; background-color: #f44336;}
+.php {width: 50%; background-color: #808080;}
+
+
+/* Adding grid and border to work section */
+.work{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: transparent solid 2px;
+}
+
+/* Applying style, grid and border to academic section */
+.academic{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: transparent solid 2px;
+    text-align: center;
+}
+
+/* Adding style, border and grid section to hobbies section */
+.hobbies{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: transparent solid 2px;
+}
+
+/* Adding style, border and grid section to contact section */
+.contact{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: transparent solid 2px;
+    text-align: center;
+}
+
+/* Adding grid and border to reference section */
+.reference{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: transparent 2px;
+}
+
+#right{
+    text-align: 
+}
+
+/* Styling the footer section */
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: transparent solid 2px;
+    text-align: center;
+}
+
+/* Styling backToTop scroll  */
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#3498db;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;
+}
+#scroll:hover {
+    background-color:#e74c3c;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
