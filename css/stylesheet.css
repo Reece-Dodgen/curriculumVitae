@@ -277,6 +277,12 @@ li{
     text-align: center;
 }
 
+.contact a{
+    color: black;
+    width: 15%;
+}
+
+
 /* Adding grid and border to reference section */
 .reference{
     grid-column-start: 1;
