@@ -163,6 +163,10 @@ hr{
     background-color: black;
 }
 
+#cooler{
+    background-color: black;
+}
+
 h3{
     font-size: 20px;
     font-family: 'Orbitron', sans-serif;
@@ -193,7 +197,7 @@ li{
 /* Styling image tag */
 .img{
     text-align: center;
-    border-radius: 100px;
+    /* border-radius: 100px; */
     padding-bottom: 20px;
 }
 
