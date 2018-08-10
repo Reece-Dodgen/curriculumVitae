@@ -1,5 +1,5 @@
 
-
+// back to top scroll function
     $(document).ready(function () {
         $(window).scroll(function () {
             if ($(this).scrollTop() > 100) {
@@ -13,8 +13,6 @@
             return false;
         });
     });
-
-
 
 
     $(function () {

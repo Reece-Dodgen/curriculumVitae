@@ -6,6 +6,34 @@ body{
     background-repeat: repeat;
 }
 
+/* // styling back to top button */
+.scroll_button {
+  text-align: right;
+  position: sticky;
+  bottom: 3%;
+  padding-bottom: 2%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.scroll_button a{
+    background-color: grey;
+    color: white;
+    padding: 14px;
+    border-radius: 2px;
+    text-decoration: none;
+    animation-name: scroll;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+  }
+  @keyframes scroll {
+    0% {opacity: 0.5;}
+    50% {opacity: 1;}
+    100% {opacity: 0.5;}
+  }
+
 @media only screen and (max-width:800px) {
     /* For tablets: */
     .main {
